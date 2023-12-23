@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --fontSize: 1.5rem;
+    --transition: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif !important;
+    font-size: var(--fontSize);
+    background-color: var(--color-bg);
+    color: var(--color-black);
+    line-height: 1.7;
+    min-width: 375px;
+}

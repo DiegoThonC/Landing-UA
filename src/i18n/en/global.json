@@ -1,0 +1,46 @@
+{
+    "header": {
+        "title": "Digital Memory Storage",
+        "contact": "Contact us"
+    },
+    "menu_small": {
+        "projects": "Projects",
+        "archive": "Archive"
+    },
+    "menu": {
+        "hamchenko": "Serhii Hamchenko's Archive",
+        "vovk": "Hvedir Vovk's Archive",
+        "about": "About Archive",
+        "archival_fonds": "Archival Fonds",
+        "activities": "Activities",
+        "partnerships": "Partnerships",
+        "students": "Students"
+    },
+    "vovk_project": {
+        "title": "DIGITAL MEMORY STORAGE. KHVEDIR VOVK'S ARCHIVE (1847–1918)",
+        "description": "In July 2023, with the support of Austrian colleagues from the Volkskundemuseum Wien (Vienna Museum of Natural History), Photoinstitut Bonartes (Vienna), and financial support from ERSTE Stiftung (Vienna), the Scientific Archive launched the project 'Digital Memory Storage. The Archive of Hvedir Vovk (1847-1918)' - the project aimed at digitizing the personal collection of the famous Ukrainian anthropologist, ethnographer and archaeologist. The scholarship program from the Austrian colleagues provided financial support to the Archive for a period of six months (July-December 2023), the purchase of an Epson Expression 12000XL scanner and packaging materials for the storage-sensitive photographs and photographic negatives of the collection. During this period, we managed to implement the project to a significant extent. Most of the paper collection of Hvedir Vovk has been digitized, photographs and photo negatives on glass have been transferred to new archival envelopes and boxes made of acid-free materials. A website was created to showcase the foundation's photo collection.",
+        "description2": "Daryna Romanenko, Halyna Stanytsyna, Oleksandra Buzko, and Tamara Kutsayeva, PhD in History, were involved in scanning the documents. The volume of documents in the collection turned out to be very large, and the team made more than 32,000 scanned copies using Epson Expression 12000XL scanner (photographs, negatives and some drawings) and two CZUR document scanners (text documents). For the purchase of the latter, we are grateful to the archaeologist, who is now in the army, PhD Oleksii Komar and philanthropist Taras Khmelovskyi.",
+        "description3": "In parallel with the digitization of the documents, work continued on the website. In the midst of the project, our programmer and archaeologist Volodymyr Mysak was drafted into the army, so whenever he could, he consulted us by phone. We are also grateful to programmer Ihor Mysak for his advice and technical assistance in setting up the hosting. As a result of this difficult cooperation, we have created the website http://vovk.archive.iananu.com/, hosted by AWS (Amazon Web Services). The website is based on the open-source content management system WordPress. The website consists of client (frontend) and administrative (backend) parts. The frontend was created using the professional WordPress theme 'Bold Photography Pro' by CATCH THEMES, including a thematically selected functional part. The layout is adaptive for all types of devices (PCs, tablets, mobile phones). Moderators of different levels of access have the opportunity to create and edit the site's content. About 30 plugins and widgets are used, including various types of galleries and sliders, bilingualism (Ukrainian and English versions), category and case structure, and security plugins. The site has about 10 GB of photo materials, which are grouped into 14 categories and 200 key objects. Each of the categories is 'pulled up' by the corresponding scanned copies of individual cases displayed in two galleries (the '3D FlipBook' slider in the form of a book and the 'Modula' gallery with a sequential series of photos). The following categories are currently available on the site:",
+        "description-list": "About Hvedir Vovk: - Biographical documents; - Portraits and other photographs. Scientific materials: - Archaeology; - Ethnography; - Anthropology. Epistolary materials: - Letters from Mykhajlo Hrushevsky; - Letters from Mykola Bilyashivsky; - Letters from the Mortillier family. Collection of negatives on glass: - Archaeology. Mizyn site; - Traveling in Western Europe. As of the end of December 2023, the vast majority of photographs and glass negatives stored in the collection, as well as some text documents (biographical documents of Khvedir Vovk and some correspondence) have been published. In the future, we plan to upload documents to the website in stages."
+    },
+    "hamchenko_project": {
+        "title": "DIGITAL MEMORY STORAGE. SERHII HAMCHENKO'S ARCHIVE (1860-1932)",
+        "description": "The grant of the Ukrainian Cultural Foundation 'Culture in Times of Crisis: Institutional Support' provided financial support to the Scientific Archive of the Institute of Archaeology of the National Academy of Sciences of Ukraine for a period of two months (November-December 2020) during the covid lockdown. In this short period of time, we managed to implement the project at the proper level and in an unexpectedly large volume. Serhii Hamchenko's paper collection was digitized by the Archival Information Systems company and was transferred to new archival boxes made of Czech acid-free cardboard. Almost the entire collection has been described in detail - a database in Excel spreadsheets has been created. A website with an intuitive administrative panel was created. We not only fulfilled the organization's plan of activities by the end of 2020 (as required by the institutional support program), but also implemented a full-fledged project, involving Institute staff members (O. Buzko, V. Mysak, H. Stanytsyna, D. Romanenko, N. Khamaiko, V. Rud, I. Sheiko, Y. Khodukina), as well as S. Lyashko, a researcher of S. Hamchenko's biography. The project was joined on a volunteer basis by the Institute's staff members S. Pavlenko, S. Lysenko, R. Reida, M. Avramenko, V. Pavlova, O. Nezdolii, and about 20 other people from outside the Institute.",
+        "description2": "The main work lasted for a month, from December 1 to December 30, 2020, in a remote format: everyone had their own folder on Google Drive, where they worked with the digitized documents of the fond in an Excel spreadsheet, where they had to fill in the 'metadata', grinding and detailing the previously imperfect description of the fond. Work with programmer Volodymyr Mysak began in parallel. As a result, the website http://hamchenko.archive.iananu.com/ was created, which presents a large list of categories, each of which contains the corresponding scanned copies of individual cases with detailed descriptions. Since the volume of documents turned out to be considerable (the entire collection was described: 229 cases, about 20,000 scans), it was decided to publish the documents on the website in parts.",
+        "description3": "As of December 24, 2020, the biographical block 'About Serhii Hamchenko', a large array of documents on the scientist's activities (work in the VUAC, etc.), the categories 'Excavations in Kyiv at the Trubetskyi’s Estate', 'Еру Dnieper Hydroelectric Station (The DniproHES) archaeological expedition', and partially the category 'Epistolary Heritage' (letters from the 1920s that are thematically related to other published categories) were published. Later, the site added the categories 'Trypillia' (and documents of Ippolyt Zborovsky, and correspondence with him); 'Research in Volyn' (and documents about the Volyn Research Museum); Research in other regions of Ukraine (and thematically related correspondence)."
+    },
+    "button": "To the site",
+    "footer": {
+        "title": "Contacts",
+        "art_by": "Art Illustration by Iryna Glik",
+        "website_by": "Website by Diego Thon",
+        "design_by": "Design by Oleksandra Buzko",
+        "email": "arhiv.ia.nanu@gmail.com",
+        "street": "Kyiv, 04210, Volodymyra Ivasiuka avenue, 12",
+        "copyrights": {
+            "first-part": "All Rights Reserved. ©",
+            "link-part": "Institute Of Archaeology Of The National Academy Of Sciences Of Ukraine",
+            "third-part": "Digital Memory Storage"
+        }
+    }
+}
