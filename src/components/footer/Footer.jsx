@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 import { useTranslation } from 'react-i18next';
-import ArrowUp from '../../components/arrowUp/ArrowUp.jsx'
 
 const Footer = () => {
 
@@ -10,7 +9,6 @@ const Footer = () => {
 
   return (
     <footer id='footer' className="relative bg-black text-center py-4 mt-14 gap-3 flex flex-col">
-      <ArrowUp />
       <div className="flex justify-between columns-1 md:columns-2 lg-columns-3 items-center">
         <div className='w-full hidden lg:block pr-5'></div>
         <div className="w-full text-white">
