@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import './HamchenkoProject.css';
 import hamchenko1 from '../../assets/hamchenko/hamchenko1.jpg';
 import hamchenko2 from '../../assets/hamchenko/hamchenko2.jpg';
 import hamchenko3 from '../../assets/hamchenko/hamchenko3.jpg';
@@ -37,7 +36,7 @@ const HamchenkoProject = () => {
           hamchenkoProject.map((item, index) => {
             return (
               <div key={index} className='pb-20'>
-                <img className='hamchenko_svg md:w-screen' src={item.img} alt="" />
+                <img className='hamchenko_svg md:w-screen shadow-[25px_25px_30px_0px_#00000080]' src={item.img} alt="" />
                 <h2 className='mt-8 font-normal text-2xl uppercase'>{item.title}</h2>
                 <p className='my-4 font-normal text-lg'>
                   {item.description} {" "}
@@ -49,8 +48,9 @@ const HamchenkoProject = () => {
             )
           })
         }
-        <a href='http://hamchenko.archive.iananu.com/en/' className='linkToSiteHamchenko flex absolute 
+        <a href='http://hamchenko.archive.iananu.com/en/' className='flex absolute right-20 bg-white
                 lg:mx-80 md:mx-40 rounded-full items-center justify-center h-28 w-28 text-lg active:shadow-[inset_25px_25px_30px_0px_#00000080]
+                shadow-[25px_25px_30px_0px_#00000080]
                 hover:shadow-[inset_25px_25px_30px_0px_#00000080] md:h-30 md:w-30'>
           {t("button")}
         </a>

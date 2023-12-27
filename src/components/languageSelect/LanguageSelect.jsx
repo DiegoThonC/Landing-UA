@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import ukraine from '../../assets/ukraine_flag.svg';
 import england from '../../assets/england_flag.svg';
+import spain from '../../assets/spain_flag.svg';
 
 const LanguageSelect = ({lang}) => {
 
@@ -41,6 +42,10 @@ const LanguageSelect = ({lang}) => {
                         <li className="hover:text-orange-400 cursor-pointer text-white flex gap-3 items-center" onClick={ () => changeLang('en', england) }>
                             <img src={england} className="h-4" alt="" />
                             EN
+                        </li>
+                        <li className="hover:text-orange-400 cursor-pointer text-white flex gap-3 items-center" onClick={ () => changeLang('es', spain) }>
+                            <img src={spain} className="h-4" alt="" />
+                            ES
                         </li>
                     </ul>
             }

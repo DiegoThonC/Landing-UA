@@ -6,6 +6,7 @@ import './index.css';
 import { I18nextProvider } from 'react-i18next';
 import global_ua from './i18n/ua/global.json';
 import global_en from './i18n/en/global.json';
+import global_es from './i18n/es/global.json';
 import i18next from 'i18next';
 
 const lang = localStorage.getItem('lang') ?? localStorage.setItem('lang', 'ua');
@@ -19,6 +20,9 @@ i18next.init({
     },
     en: {
       global: global_en
+    },
+    es: {
+      global: global_es
     }
   }
 })

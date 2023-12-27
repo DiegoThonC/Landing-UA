@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import './VovkProject.css';
 import vovk1 from '../../assets/vovk/vovk1.jpeg';
 import vovk2 from '../../assets/vovk/vovk2.jpeg';
 import vovk3 from '../../assets/vovk/vovk3.jpeg';
@@ -38,7 +37,7 @@ const VovkProject = () => {
           vovkProject.map((item, index) => {
             return (
               <div key={index} className='pb-20'>
-                <img className='vovk_svg md:w-screen' src={item.img} alt="" />
+                <img className='vovk_svg md:w-screen shadow-[25px_25px_30px_0px_#00000080]' src={item.img} alt="" />
                 <h2 className='mt-8 font-normal text-2xl uppercase'>{item.title}</h2>
                 <p className='my-4 font-normal text-lg'>
                   {item.description} {" "} 
@@ -52,8 +51,9 @@ const VovkProject = () => {
             )
           })
         }
-        <a href='http://vovk.archive.iananu.com/en/' className='linkToSiteVovk absolute flex absolute lg:mx-80 
+        <a href='http://vovk.archive.iananu.com/en/' className='absolute flex right-20 bg-white lg:mx-80 
                   md:mx-40 rounded-full items-center justify-center h-28 w-28 text-lg active:shadow-[inset_25px_25px_30px_0px_#00000080]
+                  shadow-[25px_25px_30px_0px_#00000080]
                   hover:shadow-[inset_25px_25px_30px_0px_#00000080] md:h-30 md:w-30'>
           {t("button")}
         </a>
