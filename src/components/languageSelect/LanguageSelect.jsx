@@ -26,7 +26,7 @@ const LanguageSelect = ({lang}) => {
 
     return (
         <div className="relative">
-            <button className="flex pl-28 font-semibold text-base uppercase items-center gap-2 md:text-white md:pl-0 md:pt-1" onClick={ () => setCollapse(!collapse) }>
+            <button className="flex pl-28 font-semibold text-base uppercase items-center gap-2 lg:text-white lg:pl-0 md:pt-1" onClick={ () => setCollapse(!collapse) }>
                 { language ?? localStorage.getItem('lang') }
                 <img className="h-4 w-7" alt="" src={
                     flag ?? localStorage.getItem('countryFlag')
@@ -34,7 +34,7 @@ const LanguageSelect = ({lang}) => {
             </button>
             {
                 collapse &&
-                    <ul className="text-base uppercase absolute left-28 md:-left-10 md:top-8 px-5 py-2 text-center md:text-white border border-solid border-gray-800 bg-black z-10">
+                    <ul className="text-base uppercase absolute left-28 lg:-left-10 md:top-8 px-5 py-2 text-center md:text-white border border-solid border-gray-800 bg-black z-10">
                         <li className="hover:text-orange-400 cursor-pointer text-white flex gap-3 items-center" onClick={ () => changeLang('ua', ukraine) }>
                             <img src={ukraine} className="h-4" alt="" />
                             UA

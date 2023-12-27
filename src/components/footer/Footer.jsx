@@ -9,18 +9,17 @@ const Footer = () => {
 
   return (
     <footer id='footer' className="bg-black text-center py-4 mt-14 gap-3 flex flex-col">
-      <div className="flex justify-between columns-3 md:columns-1 items-center">
-        <div className='w-full hidden md:block pr-5'>
-        </div>
+      <div className="flex justify-between columns-1 md:columns-2 lg-columns-3 items-center">
+        <div className='w-full hidden lg:block pr-5'></div>
         <div className="w-full text-white">
             <p className='text-lg uppercase font-normal pb-2'>{t("footer.title")}</p>
             <p className='text-base font-normal'>{t("footer.email")} </p>
             <p className='text-base font-normal'>{t("footer.street")}</p>
         </div>
         <div className='w-full hidden md:block pr-5'>
-          <p className='w-full text-white text-sm text-right pb-1'>{t("footer.art_by")}</p>
-          <p className='w-full text-white text-sm text-right pb-1'>{t("footer.website_by")}</p>
-          <p className='w-full text-white text-sm text-right'>{t("footer.design_by")}</p>
+          <p className='w-full text-white text-sm lg:text-right text-center pb-1'>{t("footer.art_by")}</p>
+          <p className='w-full text-white text-sm lg:text-right text-center pb-1'>{t("footer.website_by")}</p>
+          <p className='w-full text-white text-sm lg:text-right text-center'>{t("footer.design_by")}</p>
         </div>
       </div>
       <div className="flex gap-5 m-auto">
