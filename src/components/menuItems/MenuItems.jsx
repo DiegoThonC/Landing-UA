@@ -17,7 +17,7 @@ const MenuItems = ({item}) => {
                         {
                             item.links.map((link) => (
                                 <li key={link.name} className="pl-36 pb-2 hover:bg-gray-300 active:bg-gray-300">
-                                    <a href={link.href} className="font-semibold text-2xl font-normal">{ link.name }</a>                                        
+                                    <a href={link.href} className="text-2xl font-normal">{ link.name }</a>                                        
                                 </li>
                             ))
                         }

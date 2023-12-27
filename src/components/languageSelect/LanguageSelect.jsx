@@ -26,7 +26,7 @@ const LanguageSelect = ({lang}) => {
 
     return (
         <div className="relative">
-            <button className="flex pl-28 font-semibold text-base uppercase items-center gap-2 lg:text-white lg:pl-0 md:pt-1" onClick={ () => setCollapse(!collapse) }>
+            <button className="flex pl-28 font-semibold text-2xl uppercase items-center gap-2 lg:text-base lg:text-white lg:pl-0 md:pt-1" onClick={ () => setCollapse(!collapse) }>
                 { language ?? localStorage.getItem('lang') }
                 <img className="h-4 w-7" alt="" src={
                     flag ?? localStorage.getItem('countryFlag')
