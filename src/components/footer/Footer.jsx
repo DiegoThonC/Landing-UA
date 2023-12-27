@@ -16,10 +16,10 @@ const Footer = () => {
             <p className='text-base font-normal'>{t("footer.email")} </p>
             <p className='text-base font-normal'>{t("footer.street")}</p>
         </div>
-        <div className='absolute pr-5 -top-20 left-5 md:w-full md:static md:block'>
-          <p className='w-full text-sm text-start font-bold md:text-center md:font-normal lg:text-right md:text-white pb-1'>{t("footer.art_by")}</p>
-          <p className='w-full text-sm text-start font-bold md:text-center md:font-normal lg:text-right md:text-white pb-1'>{t("footer.website_by")}</p>
-          <p className='w-full text-sm text-start font-bold md:text-center md:font-normal lg:text-right md:text-white'>{t("footer.design_by")}</p>
+        <div className='absolute pr-5 -top-16 left-5 md:w-full md:static md:block'>
+          <p className='w-full text-xs md:text-sm text-start md:text-center lg:text-right md:text-white pb-1'>{t("footer.art_by")}</p>
+          <p className='w-full text-xs md:text-sm text-start md:text-center lg:text-right md:text-white pb-1'>{t("footer.website_by")}</p>
+          <p className='w-full text-xs md:text-sm text-start md:text-center lg:text-right md:text-white'>{t("footer.design_by")}</p>
         </div>
       </div>
       <div className="flex gap-5 m-auto">
