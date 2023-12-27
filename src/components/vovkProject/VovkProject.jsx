@@ -32,7 +32,7 @@ const VovkProject = () => {
   ]
 
   return (
-    <section id='VovkProject' className='pb-14 md:px-14'>
+    <section id='VovkProject' className='pb-14 pt-32 md:px-14'>
       <div className='container mx-auto px-4 mb-40 relative'>
         {
           vovkProject.map((item, index) => {
