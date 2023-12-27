@@ -5,7 +5,7 @@ import drawing from '../../assets/bg-main.png';
 const Menu = () => {
 
     return (
-        <section id="menu" className="pb-14 2xl:pb-0 md:px-14">
+        <section id="menu" className="pb-14 md:px-14">
             <div className="container mx-auto">
                 <div className="lg:hidden">
                     <MenuSmall />

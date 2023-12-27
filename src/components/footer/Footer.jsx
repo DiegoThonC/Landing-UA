@@ -18,8 +18,8 @@ const Footer = () => {
             <p className='text-base font-normal'>{t("footer.street")}</p>
         </div>
         <div className='w-full hidden md:block pr-5'>
-          <p className='w-full text-white text-sm text-right'>{t("footer.art_by")}</p>
-          <p className='w-full text-white text-sm text-right'>{t("footer.website_by")}</p>
+          <p className='w-full text-white text-sm text-right pb-1'>{t("footer.art_by")}</p>
+          <p className='w-full text-white text-sm text-right pb-1'>{t("footer.website_by")}</p>
           <p className='w-full text-white text-sm text-right'>{t("footer.design_by")}</p>
         </div>
       </div>

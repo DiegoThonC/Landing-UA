@@ -21,7 +21,10 @@ const VovkProject = () => {
     },
     {
       img: vovk3,
-      description: t("vovk_project.description3")
+      description: t("vovk_project.description3"),
+      link_to_site: t("vovk_project.link_to_site"),
+      description4: t("vovk_project.description4"),
+      description_list: t("vovk_project.description-list")
     },
     {
       img: vovk4,
@@ -38,7 +41,12 @@ const VovkProject = () => {
                 <img className='vovk_svg md:w-screen' src={item.img} alt="" />
                 <h2 className='mt-8 font-normal text-2xl uppercase'>{item.title}</h2>
                 <p className='my-4 font-normal text-lg'>
-                  {item.description}
+                  {item.description} {" "} 
+                    <a href={item.link_to_site} className='font-bold'>{item.link_to_site}</a>  
+                  {item.description4}
+                </p>
+                <p className='my-4 font-normal text-lg'>
+                  {item.description_list}
                 </p>
               </div>
             )

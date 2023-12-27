@@ -17,11 +17,13 @@ const HamchenkoProject = () => {
     },
     {
       img: hamchenko2,
-      description: t("hamchenko_project.description2")
+      description: t("hamchenko_project.description2"),
+      link_to_site: t("hamchenko_project.link_to_site"),
+      description3: t("hamchenko_project.description3"),
     },
     {
       img: hamchenko3,
-      description: t("hamchenko_project.description3")
+      description: t("hamchenko_project.description4")
     },
     {
       img: hamchenko4,
@@ -38,7 +40,10 @@ const HamchenkoProject = () => {
                 <img className='hamchenko_svg md:w-screen' src={item.img} alt="" />
                 <h2 className='mt-8 font-normal text-2xl uppercase'>{item.title}</h2>
                 <p className='my-4 font-normal text-lg'>
-                  {item.description}
+                  {item.description} {" "}
+                  <a href={item.link_to_site} className='font-bold'>{item.link_to_site}</a>
+                  {item.description3}
+                  {item.description4}
                 </p>
               </div>
             )
