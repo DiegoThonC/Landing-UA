@@ -5,9 +5,7 @@ import ukraine from '../../assets/ukraine_flag.svg';
 import england from '../../assets/england_flag.svg';
 import spain from '../../assets/spain_flag.svg';
 
-const LanguageSelect = ({lang}) => {
-
-    const countryFlag = localStorage.getItem('countryFlag') ?? localStorage.setItem('countryFlag', ukraine);
+const LanguageSelect = ({lang, countryFlag}) => {
 
     const [, i18n] = useTranslation("global");
     const [language, setLanguage] = useState(lang);

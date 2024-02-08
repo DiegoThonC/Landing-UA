@@ -16,12 +16,12 @@ const MenuSmall = () => {
       icon: ArrowDownIcon,
       links: [
         {
-          name: t("menu.hamchenko"),
-          href: 'http://hamchenko.archive.iananu.com/en/',
+          name: t("menu.hamchenko.name"),
+          href: t("menu.hamchenko.href"),
         },
         {
-          name: t("menu.vovk"),
-          href: 'http://vovk.archive.iananu.com/en/',
+          name: t("menu.vovk.name"),
+          href: t("menu.vovk.href"),
         },
       ],
     },
@@ -30,24 +30,24 @@ const MenuSmall = () => {
       icon: ArrowDownIcon,
       links: [
         {
-          name: t("menu.about"),
-          href: 'http://vovk.archive.iananu.com/en/history-of-the-scientific-archive/',
+          name: t("menu.about.name"),
+          href: t("menu.about.href"),
         },
         {
-          name: t("menu.archival_fonds"),
-          href: 'http://vovk.archive.iananu.com/en/archival-funds/',
+          name: t("menu.archival_fonds.name"),
+          href: t("menu.archival_fonds.href"),
         },
         {
-          name: t("menu.activities"),
-          href: 'http://vovk.archive.iananu.com/en/activities/',
+          name: t("menu.activities.name"),
+          href: t("menu.activities.href"),
         },
         {
-          name: t("menu.partnerships"),
-          href: 'http://vovk.archive.iananu.com/en/partnerships/',
+          name: t("menu.partnerships.name"),
+          href: t("menu.partnerships.href"),
         },
         {
-          name: t("menu.students"),
-          href: 'http://vovk.archive.iananu.com/en/students-in-the-archive/',
+          name: t("menu.students.name"),
+          href: t('menu.students.href'),
         },
       ],
     },

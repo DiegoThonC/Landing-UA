@@ -9,20 +9,41 @@
         "archive": "Archivo"
     },
     "menu": {
-        "hamchenko": "Archivo de Serhii Hamchenko",
-        "vovk": "Archivo de Khvedir Vovk",
-        "about": "Acerca del Archivo",
-        "archival_fonds": "Fondos del Archivo",
-        "activities": "Actividades",
-        "partnerships": "Partnerships",
-        "students": "Estudiantes"
+        "hamchenko": {
+            "name": "Proyecto de Hamchenko",
+            "href": "http://hamchenko.archive.iananu.com/en/"
+        },
+        "vovk": {
+            "name": "Proyecto de Vovk",
+            "href": "http://vovk.archive.iananu.com/en/"
+        },
+        "about": {
+            "name": "Acerca del Archivo",
+            "href": "http://vovk.archive.iananu.com/en/history-of-the-scientific-archive/"
+        },
+        "archival_fonds": {
+            "name": "Fondos del Archivo",
+            "href": "http://vovk.archive.iananu.com/en/archival-funds/"
+        },            
+        "activities": {
+            "name": "Actividades",
+            "href": "http://vovk.archive.iananu.com/en/activities/"
+        },
+        "partnerships": {
+            "name": "Partnerships",
+            "href": "http://vovk.archive.iananu.com/en/partnerships/"
+        },
+        "students": {
+            "name": "Estudiantes",
+            "href": "http://vovk.archive.iananu.com/en/students-in-the-archive/"
+        }
     },
     "vovk_project": {
         "title": "ALMACENAMIENTO DE MEMORIA DIGITAL. ARCHIVO DE KHVEDIR VOVK (1847-1918)",
         "description": "En julio de 2023, con el apoyo de colegas austriacos del Volkskundemuseum Wien (Museo de Historia Natural de Viena), Photoinstitut Bonartes (Viena) y el respaldo financiero de ERSTE Stiftung (Viena), el Archivo Científico lanzó el proyecto 'Almacenamiento Digital de Memoria. Archivo de Khvedir Vovk (1847-1918)', con el objetivo de digitalizar la colección personal del famoso antropólogo, etnógrafo y arqueólogo ucraniano. El programa de becas de los colegas austriacos proporcionó apoyo financiero al Archivo durante seis meses (julio-diciembre de 2023), permitiendo la adquisición de un escáner Epson Expression 12000XL y materiales de embalaje para las fotografías sensibles y negativos fotográficos de la colección. Durante este período, se logró avanzar significativamente en el proyecto. La mayoría de la colección en papel de Khvedir Vovk fue digitalizada, y las fotografías y negativos de vidrio fueron transferidos a nuevos sobres y cajas de archivo hechos de materiales sin ácido. Se creó un sitio web para mostrar la colección fotográfica de la fundación.",
         "description2": "Daryna Romanenko, Halyna Stanytsyna, Oleksandra Buzko y Tamara Kutsayeva participaron en la digitalización de los documentos. La cantidad de documentos en la colección resultó ser muy grande, y el equipo realizó más de 32,000 copias escaneadas utilizando el escáner Epson Expression 12000XL (fotografías, negativos y algunos dibujos) y dos escáneres de documentos CZUR (documentos de texto). Agradecemos al arqueólogo y militar PhD Oleksii Komar y al filántropo Taras Khmelovskyi por la adquisición de este último.",
         "description3": "Paralelamente a la digitalización de los documentos, continuó el trabajo en el sitio web. En medio del proyecto, nuestro programador y arqueólogo Volodymyr Mysak fue reclutado en el ejército, así que siempre que pudo, nos asesoró por teléfono. También agradecemos al programador Ihor Mysak por sus consejos y asistencia técnica en la configuración del alojamiento. Como resultado de esta difícil cooperación, creamos el sitio web",
-        "link_to_site": "http://vovk.archive.iananu.com/",
+        "link_to_site": "http://vovk.archive.iananu.com/en/",
         "description4": ", alojado en AWS (Amazon Web Services). El sitio se basa en el sistema de gestión de contenido de código abierto WordPress. El sitio consta de partes cliente (front-end) y administrativa (back-end). El front-end se creó utilizando el tema profesional de WordPress 'Bold Photography Pro' de CATCH THEMES, que incluye una parte funcional temáticamente seleccionada. El diseño es adaptable para todo tipo de dispositivos (PC, tabletas, teléfonos móviles). Los moderadores de diferentes niveles de acceso tienen la oportunidad de crear y editar el contenido del sitio. Se utilizan alrededor de 30 complementos y widgets, que incluyen varios tipos de galerías y deslizadores, bilingüismo (versiones en ucraniano e inglés), estructura de categorías y casos, y complementos de seguridad. El sitio tiene alrededor de 10 GB de materiales fotográficos, que se agrupan en 14 categorías y 200 objetos clave. Actualmente, las siguientes categorías están disponibles en el sitio:",
         "description-list": "Acerca de Khvedir Vovk: - Documentos biográficos; - Retratos y otras fotografías. Materiales científicos: - Arqueología; - Etnografía; - Antropología. Materiales epistolares: - Cartas de Mykhajlo Hrushevsky; - Cartas de Mykola Bilyashivsky; - Cartas de la familia Mortillier. Colección de negativos de vidrio: - Arqueología. Sitio de Mizyn; - Viajes por Europa occidental. A finales de diciembre de 2023, la gran mayoría de las fotografías y negativos de vidrio almacenados en la colección, así como algunos documentos de texto (documentos biográficos de Khvedir Vovk y parte de la correspondencia), se han publicado. En el futuro, planeamos cargar documentos en el sitio de forma gradual."
     },
@@ -30,7 +51,7 @@
         "title": "ALMACENAMIENTO DE MEMORIA DIGITAL. ARCHIVO DE SERHII HAMCHENKO (1860-1932)",
         "description": "La subvención de la Fundación Cultural Ucraniana 'Cultura en Tiempos de Crisis: Apoyo Institucional' proporcionó apoyo financiero al Archivo Científico del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania durante dos meses (noviembre-diciembre de 2020) durante el bloqueo por COVID. En este corto período de tiempo, logramos implementar el proyecto a un nivel adecuado y en un volumen inesperadamente grande. La colección en papel de Serhii Hamchenko fue digitalizada por la empresa Archival Information Systems y se transfirió a nuevas cajas de archivo hechas de cartón checo sin ácido. Casi toda la colección se describió detalladamente, creando una base de datos en hojas de cálculo de Excel. Se creó un sitio web con un panel administrativo intuitivo. No solo cumplimos con el plan de actividades de la organización para finales de 2020 (según lo requerido por el programa de apoyo institucional), sino que también implementamos un proyecto completo, involucrando a miembros del personal del Instituto (O. Buzko, V. Mysak, H. Stanytsyna, D. Romanenko, N. Khamaiko, V. Rud, I. Sheiko, Y. Khodukina), así como a S. Lyashko, un investigador de la biografía de S. Hamchenko. El proyecto fue unido de manera voluntaria por miembros del personal del Instituto S. Pavlenko, S. Lysenko, R. Reida, M. Avramenko, V. Pavlova, O. Nezdolii, y alrededor de otras 20 personas externas al Instituto.",
         "description2": "El trabajo principal duró un mes, del 1 al 30 de diciembre de 2020, en formato remoto: cada uno tenía su propia carpeta en Google Drive, donde trabajaban con los documentos digitalizados del fondo en una hoja de cálculo de Excel, llenando los 'metadatos', puliendo y detallando la descripción previamente imperfecta del fondo. El trabajo con el programador Volodymyr Mysak comenzó simultáneamente. Como resultado, se creó el sitio web.",
-        "link_to_site": "http://hamchenko.archive.iananu.com/",
+        "link_to_site": "http://hamchenko.archive.iananu.com/en/",
         "description3": " que presenta una gran lista de categorías, cada una de las cuales contiene las correspondientes copias escaneadas de casos individuales con descripciones detalladas. Dado que el volumen de documentos resultó ser considerable (toda la colección fue descrita: 229 casos, alrededor de 20,000 escaneos), se decidió publicar los documentos en el sitio web por partes.",
         "description4": "Hasta el 24 de diciembre de 2020, se publicó el bloque biográfico 'Acerca de Serhii Hamchenko', una gran cantidad de documentos sobre las actividades del científico (trabajo en el VUAC, etc.), las categorías 'Excavaciones en Kyiv en la finca Trubetskyi', 'Expedición arqueológica a la Central Hidroeléctrica del Dniéper (DniproHES)', y parcialmente la categoría 'Herencia epistolar' (cartas de la década de 1920 relacionadas temáticamente con otras categorías publicadas). Más tarde, el sitio agregó las categorías 'Trypillia' (y documentos de Ippolyt Zborovsky, y correspondencia con él); 'Investigación en Volyn' (y documentos sobre el Museo de Investigación de Volyn); Investigación en otras regiones de Ucrania (y correspondencia temáticamente relacionada)."
     },

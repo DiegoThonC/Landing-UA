@@ -1,12 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import LanguageSelect from '../languageSelect/LanguageSelect';
 import logo from './../../assets/logo.svg';
+import ukraine from '../../assets/ukraine_flag.svg';
+
 
 const Header = () => {
 
   const [t, ] = useTranslation("global");
 
   const lang = localStorage.getItem('lang');
+  const countryFlag = localStorage.getItem('countryFlag') ?? localStorage.setItem('countryFlag', ukraine);
   
   return (
     <header className="bg-black shadow-lg shadow-gray-800/100 md:px-14">
@@ -17,7 +20,7 @@ const Header = () => {
         </a>
         <div className='hidden py-3 gap-10 items-baseline lg:flex'>
           <a href='#footer' className='contents text-white text-base mt-1'>{t('header.contact')}</a>
-          <LanguageSelect lang={lang} />
+          <LanguageSelect lang={lang} countryFlag={countryFlag}/>
         </div>
       </div>
     </header>

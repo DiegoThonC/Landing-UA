@@ -48,7 +48,7 @@ const HamchenkoProject = () => {
             )
           })
         }
-        <a href='http://hamchenko.archive.iananu.com/en/' className='flex absolute right-20 bg-white
+        <a href={t("hamchenko_project.link_to_site")} className='flex absolute right-20 bg-white
                 lg:mx-80 md:mx-40 rounded-full items-center justify-center h-28 w-28 text-lg active:shadow-[inset_25px_25px_30px_0px_#00000080]
                 shadow-[25px_25px_30px_0px_#00000080]
                 hover:shadow-[inset_25px_25px_30px_0px_#00000080] md:h-30 md:w-30'>

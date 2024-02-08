@@ -9,13 +9,34 @@
         "archive": "Архів"
     },
     "menu": {
-        "hamchenko": "Архів Сергія Гамченка",
-        "vovk": "Архів Хведора Вовка",
-        "about": "Про Архів",
-        "archival_fonds": "Архівні Фонди",
-        "activities": "Активності",
-        "partnerships": "Партнерства",
-        "students": "Студенти"
+        "hamchenko": {
+            "name": "Проект Гамченко",
+            "href": "http://hamchenko.archive.iananu.com/"
+        },
+        "vovk": {
+            "name": "Проект Вовк",
+            "href": "http://vovk.archive.iananu.com/"
+        },
+        "about": {
+            "name": "Про Архів",
+            "href": " http://vovk.archive.iananu.com/istoriya-naukovogo-arhivu-instytutu-arheologiyi-nan-ukrayiny/"
+        },
+        "archival_fonds": {
+            "name": "Архівні Фонди",
+            "href": "http://vovk.archive.iananu.com/fondy-arhivu/"
+        },            
+        "activities": {
+            "name": "Активності",
+            "href": "http://vovk.archive.iananu.com/aktyvnosti/"
+        },
+        "partnerships": {
+            "name": "Партнерства",
+            "href": "http://vovk.archive.iananu.com/praktyka-na-bazi-arhivu/"
+        },
+        "students": {
+            "name": "Студенти",
+            "href": "http://vovk.archive.iananu.com/volonterstvo/"
+        }
     },
     "vovk_project": {
         "title": "ЦИФРОВЕ СХОВИЩЕ ПАМ’ЯТІ. АРХІВ ХВЕДОРА ВОВКА (1847–1918)",
