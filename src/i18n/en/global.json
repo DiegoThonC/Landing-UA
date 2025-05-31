@@ -10,12 +10,16 @@
     },
     "menu": {
         "hamchenko": {
-            "name": "Hamchenko's project",
+            "name": "Serhii Hamchenko",
             "href": "http://hamchenko.archive.iananu.com/en/"
         },
         "vovk": {
-            "name": "Vovk's project",
+            "name": "Khvedir Vovk",
             "href": "http://vovk.archive.iananu.com/en/"
+        },
+        "petrov": {
+            "name": "Viktor Petrov (Domontovych)",
+            "href": "https://petrov-domontovych.archive.iananu.com/en/"
         },
         "about": {
             "name": "About archive",
@@ -54,6 +58,20 @@
         "link_to_site": "http://hamchenko.archive.iananu.com/en/",
         "description3": " was created, which presents a large list of categories, each of which contains the corresponding scanned copies of individual cases with detailed descriptions. Since the volume of documents turned out to be considerable (the entire collection was described: 229 cases, about 20,000 scans), it was decided to publish the documents on the website in parts.",
         "description4": "As of December 24, 2020, the biographical block 'About Serhii Hamchenko', a large array of documents on the scientist's activities (work in the VUAC, etc.), the categories 'Excavations in Kyiv at the Trubetskyi’s Estate', 'Еру Dnieper Hydroelectric Station (The DniproHES) archaeological expedition', and partially the category 'Epistolary Heritage' (letters from the 1920s that are thematically related to other published categories) were published. Later, the site added the categories 'Trypillia' (and documents of Ippolyt Zborovsky, and correspondence with him); 'Research in Volyn' (and documents about the Volyn Research Museum); Research in other regions of Ukraine (and thematically related correspondence)."
+    },
+    "domontovych_project": {
+        "title": "DIGITAL MEMORY STORAGE. ARCHIVE OF VIKTOR PETROV (DOMONTOVYCH)",
+        "description": "In August-September of 2024, with the support of the Ukrainian Cultural Foundation, the Scientific Archive implemented the project “Digital Memory Storage. The Archive of Viktor Petrov (Domontovych) (1894-1969)” - a project to digitize the personal collection of the Ukrainian writer, archaeologist, historian, ethnographer, linguist, literary critic, philosopher and social anthropologist. This year, the scientist would have turned 130.",
+        "description2": "Candidates of Historical Sciences Valentyna Korpusova, Nataliia Abashyna, Oleh Petrauskas, and Viktoriia Serhienko were involved in describing the cases and writing annotations. Yulia Karpets, a PhD student at the Department of Literary Studies at the Kyiv Mohyla Academy, joined the project on a volunteer basis. Additional annotations for individual categories were written by Oleksandra Buzko, Daryna Romanenko, and Halyna Stanytsyna.",
+        "description3": "As part of their archival practice, 1st-year students of the Faculty of History at Taras Shevchenko National University of Kyiv Sofia Shevchenko, Kristina Dudar, Vladyslava Mykhailyk, Olha Babinets, and Oleksandra Kharchenko helped to preliminarily review Viktor Petrov's materials for the Old Prussian Dictionary.",
+        "description4": "This is the third similar website of the “Digital Memory Storage” initiative. The first was dedicated to archaeologist Serhii Hamchenko, and the second to ethnographer, anthropologist, archaeologist, and public figure Khvedir Vovk. The first projects were implemented by programmer Volodymyr Mysak. Volodymyr is currently serving in the Armed Forces of Ukraine, so he was replaced by Maksym Bakaiev.",
+        "description5": "As of September 30, 2024, the website was published:",
+        "description6": "A biographical block “About Viktor Petrov (Domontovych)” with the categories “Biographical documents,” “Portraits and other photographs,” and “Dissertation defense case.”",
+        "description7": "Archaeological block with categories: “Excavations of the 'burial fields' culture,” ‘Excavations of the Kosaniv cemetery,’ ‘Negatives on glass,’ ‘Tyras and previously unknown photos of Viktor Petrov,’ ”Research on Kyiv.”",
+        "description8": "Literary studies block with categories: “Research on Panteleimon Kulish”, ‘Research on Hohol’, ‘Literary fragments about Shchors’.",
+        "description9": "Epistolary heritage block with categories: “Letters from Oleksandr Bodianski,” ‘Letters from fellow female archivists Nadiia Linka and Seraphima Kuznetsova,’ and ”Letters from Fedot Filin.”",
+        "description10": "A souvenir calendar with photos from the Kosanove collection, a burial site of the Cherniakhivska culture that was investigated in the 1960s by Viktor Petrov and Nadiia Kravchenko, was printed as a gift for all project participants. The collection is now stored in the Scientific Funds of the Institute of Archeology of the National Academy of Sciences of Ukraine. The calendar (as well as the main page of the website) is based on a photo by Nika Havrysh.  The calendar can be downloaded here.",
+        "link_to_site": "https://petrov-domontovych.archive.iananu.com/en/"
     },
     "button": "To the site",
     "footer": {

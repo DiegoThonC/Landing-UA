@@ -13,6 +13,10 @@ const MenuWide = () => {
       name: t("menu.vovk.name"),
       href: t("menu.vovk.href"),
     },
+    {
+      name: t("menu.petrov.name"),
+      href: t("menu.petrov.href"),
+    },
   ];
 
   const Archive = [
