@@ -35,15 +35,13 @@ const DomontovychProject = () => {
       <div className='container mx-auto px-4 mb-40 relative'>
         {
           domontovychProject.map((item, index) => {
-            console.log(item);
-            
             return (
               <>
                 <div key={index} className='pb-20'>
                   <h2 className='mt-8 font-normal text-2xl uppercase'>{item.title}</h2>
                   <p className='my-4 font-normal text-lg'>{item.description}</p>
                   <img className='hamchenko_svg md:w-screen shadow-[25px_25px_30px_0px_#00000080]' src={item.img} alt="" />
-                  <p className='my-4 font-normal text-lg'>{item.description2}</p>
+                  <p className='mt-8 font-normal text-lg'>{item.description2}</p>
                   <p className='my-4 font-normal text-lg'>{item.description3}</p>
                   <p className='my-4 font-normal text-lg'>{item.description4}</p>
                   <p className='my-4 font-normal text-lg'>{item.description5}</p>

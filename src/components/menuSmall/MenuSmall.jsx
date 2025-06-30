@@ -27,6 +27,10 @@ const MenuSmall = () => {
           name: t("menu.petrov.name"),
           href: t("menu.petrov.href"),
         },
+        {
+          name: t("menu.viazmitina.name"),
+          href: t("menu.viazmitina.href"),
+        },
       ],
     },
     {

@@ -1,90 +1,102 @@
 {
-    "title": "Archivo Científico del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania.",
-    "header": {
-        "title": "Almacenamiento de memoria digital",
-        "contact": "Contáctanos"
+  "title": "Archivo Científico del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania.",
+  "header": {
+    "title": "Archivo Digital De La Memoria",
+    "contact": "Contáctanos"
+  },
+  "menu_small": {
+    "projects": "Proyectos",
+    "archive": "Archivo"
+  },
+  "menu": {
+    "hamchenko": {
+      "name": "Serhii Hamchenko",
+      "href": "http://hamchenko-archive.iananu.digital/en/"
     },
-    "menu_small": {
-        "projects": "Proyectos",
-        "archive": "Archivo"
+    "vovk": {
+      "name": "Khvedir Vovk",
+      "href": "http://vovk-archive.iananu.digital/en/"
     },
-    "menu": {
-        "hamchenko": {
-            "name": "Serhii Hamchenko",
-            "href": "http://hamchenko.archive.iananu.com/en/"
-        },
-        "vovk": {
-            "name": "Khvedir Vovk",
-            "href": "http://vovk.archive.iananu.com/en/"
-        },
-        "petrov": {
-            "name": "Viktor Petrov (Domontovych)",
-            "href": "https://petrov-domontovych.archive.iananu.com/en/"
-        },
-        "about": {
-            "name": "Acerca del Archivo",
-            "href": "http://vovk.archive.iananu.com/en/history-of-the-scientific-archive/"
-        },
-        "archival_fonds": {
-            "name": "Fondos del Archivo",
-            "href": "http://vovk.archive.iananu.com/en/archival-funds/"
-        },            
-        "activities": {
-            "name": "Actividades",
-            "href": "http://vovk.archive.iananu.com/en/activities/"
-        },
-        "partnerships": {
-            "name": "Partnerships",
-            "href": "http://vovk.archive.iananu.com/en/partnerships/"
-        },
-        "students": {
-            "name": "Estudiantes",
-            "href": "http://vovk.archive.iananu.com/en/students-in-the-archive/"
-        }
+    "petrov": {
+      "name": "Viktor Petrov (Domontovych)",
+      "href": "https://petrov-domontovych-archive.iananu.digital/en/"
     },
-    "vovk_project": {
-        "title": "ALMACENAMIENTO DE MEMORIA DIGITAL. ARCHIVO DE KHVEDIR VOVK (1847-1918)",
-        "description": "En julio de 2023, con el apoyo de colegas austriacos del Volkskundemuseum Wien (Museo de Historia Natural de Viena), Photoinstitut Bonartes (Viena) y el respaldo financiero de ERSTE Stiftung (Viena), el Archivo Científico lanzó el proyecto 'Almacenamiento Digital de Memoria. Archivo de Khvedir Vovk (1847-1918)', con el objetivo de digitalizar la colección personal del famoso antropólogo, etnógrafo y arqueólogo ucraniano. El programa de becas de los colegas austriacos proporcionó apoyo financiero al Archivo durante seis meses (julio-diciembre de 2023), permitiendo la adquisición de un escáner Epson Expression 12000XL y materiales de embalaje para las fotografías sensibles y negativos fotográficos de la colección. Durante este período, se logró avanzar significativamente en el proyecto. La mayoría de la colección en papel de Khvedir Vovk fue digitalizada, y las fotografías y negativos de vidrio fueron transferidos a nuevos sobres y cajas de archivo hechos de materiales sin ácido. Se creó un sitio web para mostrar la colección fotográfica de la fundación.",
-        "description2": "Daryna Romanenko, Halyna Stanytsyna, Oleksandra Buzko y Tamara Kutsayeva participaron en la digitalización de los documentos. La cantidad de documentos en la colección resultó ser muy grande, y el equipo realizó más de 32,000 copias escaneadas utilizando el escáner Epson Expression 12000XL (fotografías, negativos y algunos dibujos) y dos escáneres de documentos CZUR (documentos de texto). Agradecemos al arqueólogo y militar PhD Oleksii Komar y al filántropo Taras Khmelovskyi por la adquisición de este último.",
-        "description3": "Paralelamente a la digitalización de los documentos, continuó el trabajo en el sitio web. En medio del proyecto, nuestro programador y arqueólogo Volodymyr Mysak fue reclutado en el ejército, así que siempre que pudo, nos asesoró por teléfono. También agradecemos al programador Ihor Mysak por sus consejos y asistencia técnica en la configuración del alojamiento. Como resultado de esta difícil cooperación, creamos el sitio web",
-        "link_to_site": "http://vovk.archive.iananu.com/en/",
-        "description4": ", alojado en AWS (Amazon Web Services). El sitio se basa en el sistema de gestión de contenido de código abierto WordPress. El sitio consta de partes cliente (front-end) y administrativa (back-end). El front-end se creó utilizando el tema profesional de WordPress 'Bold Photography Pro' de CATCH THEMES, que incluye una parte funcional temáticamente seleccionada. El diseño es adaptable para todo tipo de dispositivos (PC, tabletas, teléfonos móviles). Los moderadores de diferentes niveles de acceso tienen la oportunidad de crear y editar el contenido del sitio. Se utilizan alrededor de 30 complementos y widgets, que incluyen varios tipos de galerías y deslizadores, bilingüismo (versiones en ucraniano e inglés), estructura de categorías y casos, y complementos de seguridad. El sitio tiene alrededor de 10 GB de materiales fotográficos, que se agrupan en 14 categorías y 200 objetos clave. Actualmente, las siguientes categorías están disponibles en el sitio:",
-        "description-list": "Acerca de Khvedir Vovk: - Documentos biográficos; - Retratos y otras fotografías. Materiales científicos: - Arqueología; - Etnografía; - Antropología. Materiales epistolares: - Cartas de Mykhajlo Hrushevsky; - Cartas de Mykola Bilyashivsky; - Cartas de la familia Mortillier. Colección de negativos de vidrio: - Arqueología. Sitio de Mizyn; - Viajes por Europa occidental. A finales de diciembre de 2023, la gran mayoría de las fotografías y negativos de vidrio almacenados en la colección, así como algunos documentos de texto (documentos biográficos de Khvedir Vovk y parte de la correspondencia), se han publicado. En el futuro, planeamos cargar documentos en el sitio de forma gradual."
+    "viazmitina": {
+      "name": "María Viazmitina",
+      "href": "https://viazmitina-archive.iananu.digital/en/"
     },
-    "hamchenko_project": {
-        "title": "ALMACENAMIENTO DE MEMORIA DIGITAL. ARCHIVO DE SERHII HAMCHENKO (1860-1932)",
-        "description": "La subvención de la Fundación Cultural Ucraniana 'Cultura en Tiempos de Crisis: Apoyo Institucional' proporcionó apoyo financiero al Archivo Científico del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania durante dos meses (noviembre-diciembre de 2020) durante el bloqueo por COVID. En este corto período de tiempo, logramos implementar el proyecto a un nivel adecuado y en un volumen inesperadamente grande. La colección en papel de Serhii Hamchenko fue digitalizada por la empresa Archival Information Systems y se transfirió a nuevas cajas de archivo hechas de cartón checo sin ácido. Casi toda la colección se describió detalladamente, creando una base de datos en hojas de cálculo de Excel. Se creó un sitio web con un panel administrativo intuitivo. No solo cumplimos con el plan de actividades de la organización para finales de 2020 (según lo requerido por el programa de apoyo institucional), sino que también implementamos un proyecto completo, involucrando a miembros del personal del Instituto (O. Buzko, V. Mysak, H. Stanytsyna, D. Romanenko, N. Khamaiko, V. Rud, I. Sheiko, Y. Khodukina), así como a S. Lyashko, un investigador de la biografía de S. Hamchenko. El proyecto fue unido de manera voluntaria por miembros del personal del Instituto S. Pavlenko, S. Lysenko, R. Reida, M. Avramenko, V. Pavlova, O. Nezdolii, y alrededor de otras 20 personas externas al Instituto.",
-        "description2": "El trabajo principal duró un mes, del 1 al 30 de diciembre de 2020, en formato remoto: cada uno tenía su propia carpeta en Google Drive, donde trabajaban con los documentos digitalizados del fondo en una hoja de cálculo de Excel, llenando los 'metadatos', puliendo y detallando la descripción previamente imperfecta del fondo. El trabajo con el programador Volodymyr Mysak comenzó simultáneamente. Como resultado, se creó el sitio web.",
-        "link_to_site": "http://hamchenko.archive.iananu.com/en/",
-        "description3": " que presenta una gran lista de categorías, cada una de las cuales contiene las correspondientes copias escaneadas de casos individuales con descripciones detalladas. Dado que el volumen de documentos resultó ser considerable (toda la colección fue descrita: 229 casos, alrededor de 20,000 escaneos), se decidió publicar los documentos en el sitio web por partes.",
-        "description4": "Hasta el 24 de diciembre de 2020, se publicó el bloque biográfico 'Acerca de Serhii Hamchenko', una gran cantidad de documentos sobre las actividades del científico (trabajo en el VUAC, etc.), las categorías 'Excavaciones en Kyiv en la finca Trubetskyi', 'Expedición arqueológica a la Central Hidroeléctrica del Dniéper (DniproHES)', y parcialmente la categoría 'Herencia epistolar' (cartas de la década de 1920 relacionadas temáticamente con otras categorías publicadas). Más tarde, el sitio agregó las categorías 'Trypillia' (y documentos de Ippolyt Zborovsky, y correspondencia con él); 'Investigación en Volyn' (y documentos sobre el Museo de Investigación de Volyn); Investigación en otras regiones de Ucrania (y correspondencia temáticamente relacionada)."
+    "about": {
+      "name": "Acerca del Archivo",
+      "href": "http://vovk-archive.iananu.digital/en/history-of-the-scientific-archive/"
     },
-    "domontovych_project": {
-        "title": "ALMACENAMIENTO DE MEMORIA DIGITAL. ARCHIVO DE VIKTOR PETROV (DOMONTOVYCH)",
-        "description": "En agosto-septiembre de 2024, con el apoyo de la Fundación Cultural Ucraniana, el Archivo Científico puso en marcha el proyecto «Almacenamiento de Memoria Digital. El archivo de Viktor Petrov (Domontovych) (1894-1969)», un proyecto para digitalizar la colección personal del escritor, arqueólogo, historiador, etnógrafo, lingüista, crítico literario, filósofo y antropólogo social ucraniano. Este año, el científico habría cumplido 130 años.",
-        "description2": "Los licenciados en Ciencias Históricas Valentyna Korpusova, Nataliia Abashyna, Oleh Petrauskas y Viktoriia Sergienko participaron en la descripción de los casos y la redacción de las anotaciones. Yuliia Karpets, estudiante de doctorado en el Departamento de Estudios Literarios de la Academia Kyiv-Mohyla, se unió al proyecto de forma voluntaria. Oleksandra Buzko, Daryna Romanenko y Halyna Stanytsyna escribieron anotaciones adicionales para determinadas categorías.",
-        "description3": "Como parte de sus prácticas archivísticas, los estudiantes de primer curso de la Facultad de Historia de la Universidad Nacional Taras Shevchenko de Kyiv Sofia Shevchenko, Kristina Dudar, Vladyslava Mykhailyk, Olha Babinets y Oleksandra Kharchenko ayudaron a revisar preliminarmente los materiales de Viktor Petrov para el Diccionario prusiano antiguo.",
-        "description4": "Este es el tercer sitio web similar de la iniciativa Repositorio Digital de la Memoria. La primera se dedicó al arqueólogo Serhii Hamchenko, y la segunda al etnógrafo, antropólogo, arqueólogo y personalidad pública Khvedir Vovk. Los primeros proyectos fueron realizados por el programador Volodymyr Mysak. Volodymyr sirve actualmente en las Fuerzas Armadas de Ucrania, por lo que fue sustituido por Maksym Bakaiev.",
-        "description5": "El 30 de septiembre de 2024 se publicó el sitio web:",
-        "description6": "Un bloque biográfico «Sobre Viktor Petrov (Domontovych)» con las categorías «Documentos biográficos», «Retratos y otras fotografías», «Caso de defensa de la disertación».",
-        "description7": "Bloque arqueológico con las categorías «Excavaciones de la cultura de los 'campos funerarios'», “Excavaciones del cementerio de Kosaniv”, “Negativos sobre vidrio”, “Tira y fotos hasta ahora desconocidas de Viktor Petrov”, “Investigación de Kyiv”.",
-        "description8": "Bloque de estudios literarios con las categorías: «Investigación sobre Panteleimon Kulish», “Investigación sobre Hohol”, “Fragmentos literarios sobre Shchors”.",
-        "description9": "Bloque de patrimonio epistolar con las categorías: «Cartas de Oleksandr Bodianski», “Cartas de las colegas archiveras Nadiia Linka y Seraphima Kuznetsova”, y “Cartas de Fedot Filin”.",
-        "description10": "Se imprimió un calendario de recuerdo con fotos de la colección Kosanove, un enterramiento de la cultura Cherniakhivska que fue investigado en los años sesenta por Viktor Petrov y Nadiia Kravchenko, como regalo para todos los participantes en el proyecto. La colección se conserva ahora en los Fondos Científicos del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania. El calendario (así como la página principal del sitio web) está basado en una fotografía de Nika Havrysh.  El calendario puede descargarse aquí.",
-        "link_to_site": "https://petrov-domontovych.archive.iananu.com/en/"
+    "archival_fonds": {
+      "name": "Fondos del Archivo",
+      "href": "http://vovk-archive.iananu.digital/en/archival-funds/"
     },
-    "button": "Visitar sitio",
-    "footer": {
-        "title": "Contacto",
-        "art_by": "Ilustración artística por Iryna Glik",
-        "website_by": "Sitio web por Diego Thon",
-        "design_by": "Diseño web por Oleksandra Buzko",
-        "email": "arhiv.ia.nanu@gmail.com",
-        "street": "Kyiv, 04210, Volodymyra Ivasiuka avenue, 12",
-        "copyrights": {
-            "first-part": "Todos los derechos reservados. ©",
-            "link-part": "Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania",
-            "third-part": "Almacenamiento de memoria digital"
-        }
+    "activities": {
+      "name": "Actividades",
+      "href": "http://vovk-archive.iananu.digital/en/activities/"
+    },
+    "partnerships": {
+      "name": "Partnerships",
+      "href": "http://vovk-archive.iananu.digital/en/partnerships/"
+    },
+    "students": {
+      "name": "Estudiantes",
+      "href": "http://vovk-archive.iananu.digital/en/students-in-the-archive/"
     }
+  },
+  "vovk_project": {
+    "title": "ARCHIVO DIGITAL DE LA MEMORIA. ARCHIVO DE KHVEDIR VOVK (1847-1918)",
+    "description": "En julio de 2023, con el apoyo de colegas austriacos del Volkskundemuseum Wien (Museo de Historia Natural de Viena), Photoinstitut Bonartes (Viena) y el respaldo financiero de ERSTE Stiftung (Viena), el Archivo Científico lanzó el proyecto 'Archivo Digital de la Memoria. Archivo de Khvedir Vovk (1847-1918)', con el objetivo de digitalizar la colección personal del famoso antropólogo, etnógrafo y arqueólogo ucraniano. El programa de becas de los colegas austriacos proporcionó apoyo financiero al Archivo durante seis meses (julio-diciembre de 2023), permitiendo la adquisición de un escáner Epson Expression 12000XL y materiales de embalaje para las fotografías sensibles y negativos fotográficos de la colección. Durante este período, se logró avanzar significativamente en el proyecto. La mayoría de la colección en papel de Khvedir Vovk fue digitalizada, y las fotografías y negativos de vidrio fueron transferidos a nuevos sobres y cajas de archivo hechos de materiales sin ácido. Se creó un sitio web para mostrar la colección fotográfica de la fundación.",
+    "description2": "Daryna Romanenko, Halyna Stanytsyna, Oleksandra Buzko y Tamara Kutsayeva participaron en la digitalización de los documentos. La cantidad de documentos en la colección resultó ser muy grande, y el equipo realizó más de 32,000 copias escaneadas utilizando el escáner Epson Expression 12000XL (fotografías, negativos y algunos dibujos) y dos escáneres de documentos CZUR (documentos de texto). Agradecemos al arqueólogo y militar PhD Oleksii Komar y al filántropo Taras Khmelovskyi por la adquisición de este último.",
+    "description3": "Paralelamente a la digitalización de los documentos, continuó el trabajo en el sitio web. En medio del proyecto, nuestro programador y arqueólogo Volodymyr Mysak fue reclutado en el ejército, así que siempre que pudo, nos asesoró por teléfono. También agradecemos al programador Ihor Mysak por sus consejos y asistencia técnica en la configuración del alojamiento. Como resultado de esta difícil cooperación, creamos el sitio web",
+    "link_to_site": "http://vovk-archive.iananu.digital/en/",
+    "description4": ", alojado en AWS (Amazon Web Services). El sitio se basa en el sistema de gestión de contenido de código abierto WordPress. El sitio consta de partes cliente (front-end) y administrativa (back-end). El front-end se creó utilizando el tema profesional de WordPress 'Bold Photography Pro' de CATCH THEMES, que incluye una parte funcional temáticamente seleccionada. El diseño es adaptable para todo tipo de dispositivos (PC, tabletas, teléfonos móviles). Los moderadores de diferentes niveles de acceso tienen la oportunidad de crear y editar el contenido del sitio. Se utilizan alrededor de 30 complementos y widgets, que incluyen varios tipos de galerías y deslizadores, bilingüismo (versiones en ucraniano e inglés), estructura de categorías y casos, y complementos de seguridad. El sitio tiene alrededor de 10 GB de materiales fotográficos, que se agrupan en 14 categorías y 200 objetos clave. Actualmente, las siguientes categorías están disponibles en el sitio:",
+    "description-list": "Acerca de Khvedir Vovk: - Documentos biográficos; - Retratos y otras fotografías. Materiales científicos: - Arqueología; - Etnografía; - Antropología. Materiales epistolares: - Cartas de Mykhajlo Hrushevsky; - Cartas de Mykola Bilyashivsky; - Cartas de la familia Mortillier. Colección de negativos de vidrio: - Arqueología. Sitio de Mizyn; - Viajes por Europa occidental. A finales de diciembre de 2023, la gran mayoría de las fotografías y negativos de vidrio almacenados en la colección, así como algunos documentos de texto (documentos biográficos de Khvedir Vovk y parte de la correspondencia), se han publicado. En el futuro, planeamos cargar documentos en el sitio de forma gradual."
+  },
+  "hamchenko_project": {
+    "title": "ARCHIVO DIGITAL DE LA MEMORIA. ARCHIVO DE SERHII HAMCHENKO (1860-1932)",
+    "description": "La subvención de la Fundación Cultural Ucraniana 'Cultura en Tiempos de Crisis: Apoyo Institucional' proporcionó apoyo financiero al Archivo Científico del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania durante dos meses (noviembre-diciembre de 2020) durante el bloqueo por COVID. En este corto período de tiempo, logramos implementar el proyecto a un nivel adecuado y en un volumen inesperadamente grande. La colección en papel de Serhii Hamchenko fue digitalizada por la empresa Archival Information Systems y se transfirió a nuevas cajas de archivo hechas de cartón checo sin ácido. Casi toda la colección se describió detalladamente, creando una base de datos en hojas de cálculo de Excel. Se creó un sitio web con un panel administrativo intuitivo. No solo cumplimos con el plan de actividades de la organización para finales de 2020 (según lo requerido por el programa de apoyo institucional), sino que también implementamos un proyecto completo, involucrando a miembros del personal del Instituto (O. Buzko, V. Mysak, H. Stanytsyna, D. Romanenko, N. Khamaiko, V. Rud, I. Sheiko, Y. Khodukina), así como a S. Lyashko, un investigador de la biografía de S. Hamchenko. El proyecto fue unido de manera voluntaria por miembros del personal del Instituto S. Pavlenko, S. Lysenko, R. Reida, M. Avramenko, V. Pavlova, O. Nezdolii, y alrededor de otras 20 personas externas al Instituto.",
+    "description2": "El trabajo principal duró un mes, del 1 al 30 de diciembre de 2020, en formato remoto: cada uno tenía su propia carpeta en Google Drive, donde trabajaban con los documentos digitalizados del fondo en una hoja de cálculo de Excel, llenando los 'metadatos', puliendo y detallando la descripción previamente imperfecta del fondo. El trabajo con el programador Volodymyr Mysak comenzó simultáneamente. Como resultado, se creó el sitio web.",
+    "link_to_site": "http://hamchenko-archive.iananu.digital/en/",
+    "description3": " que presenta una gran lista de categorías, cada una de las cuales contiene las correspondientes copias escaneadas de casos individuales con descripciones detalladas. Dado que el volumen de documentos resultó ser considerable (toda la colección fue descrita: 229 casos, alrededor de 20,000 escaneos), se decidió publicar los documentos en el sitio web por partes.",
+    "description4": "Hasta el 24 de diciembre de 2020, se publicó el bloque biográfico 'Acerca de Serhii Hamchenko', una gran cantidad de documentos sobre las actividades del científico (trabajo en el VUAC, etc.), las categorías 'Excavaciones en Kyiv en la finca Trubetskyi', 'Expedición arqueológica a la Central Hidroeléctrica del Dniéper (DniproHES)', y parcialmente la categoría 'Herencia epistolar' (cartas de la década de 1920 relacionadas temáticamente con otras categorías publicadas). Más tarde, el sitio agregó las categorías 'Trypillia' (y documentos de Ippolyt Zborovsky, y correspondencia con él); 'Investigación en Volyn' (y documentos sobre el Museo de Investigación de Volyn); Investigación en otras regiones de Ucrania (y correspondencia temáticamente relacionada)."
+  },
+  "domontovych_project": {
+    "title": "ARCHIVO DIGITAL DE LA MEMORIA. ARCHIVO DE VIKTOR PETROV (DOMONTOVYCH)",
+    "description": "En agosto-septiembre de 2024, con el apoyo de la Fundación Cultural Ucraniana, el Archivo Científico puso en marcha el proyecto «Archivo digital de la Memoria. El archivo de Viktor Petrov (Domontovych) (1894-1969)», un proyecto para digitalizar la colección personal del escritor, arqueólogo, historiador, etnógrafo, lingüista, crítico literario, filósofo y antropólogo social ucraniano. Este año, el científico habría cumplido 130 años.",
+    "description2": "Los licenciados en Ciencias Históricas Valentyna Korpusova, Nataliia Abashyna, Oleh Petrauskas y Viktoriia Sergienko participaron en la descripción de los casos y la redacción de las anotaciones. Yuliia Karpets, estudiante de doctorado en el Departamento de Estudios Literarios de la Academia Kyiv-Mohyla, se unió al proyecto de forma voluntaria. Oleksandra Buzko, Daryna Romanenko y Halyna Stanytsyna escribieron anotaciones adicionales para determinadas categorías.",
+    "description3": "Como parte de sus prácticas archivísticas, los estudiantes de primer curso de la Facultad de Historia de la Universidad Nacional Taras Shevchenko de Kyiv Sofia Shevchenko, Kristina Dudar, Vladyslava Mykhailyk, Olha Babinets y Oleksandra Kharchenko ayudaron a revisar preliminarmente los materiales de Viktor Petrov para el Diccionario prusiano antiguo.",
+    "description4": "Este es el tercer sitio web similar de la iniciativa Repositorio Digital de la Memoria. La primera se dedicó al arqueólogo Serhii Hamchenko, y la segunda al etnógrafo, antropólogo, arqueólogo y personalidad pública Khvedir Vovk. Los primeros proyectos fueron realizados por el programador Volodymyr Mysak. Volodymyr sirve actualmente en las Fuerzas Armadas de Ucrania, por lo que fue sustituido por Maksym Bakaiev.",
+    "description5": "El 30 de septiembre de 2024 se publicó el sitio web:",
+    "description6": "Un bloque biográfico «Sobre Viktor Petrov (Domontovych)» con las categorías «Documentos biográficos», «Retratos y otras fotografías», «Caso de defensa de la disertación».",
+    "description7": "Bloque arqueológico con las categorías «Excavaciones de la cultura de los 'campos funerarios'», “Excavaciones del cementerio de Kosaniv”, “Negativos sobre vidrio”, “Tira y fotos hasta ahora desconocidas de Viktor Petrov”, “Investigación de Kyiv”.",
+    "description8": "Bloque de estudios literarios con las categorías: «Investigación sobre Panteleimon Kulish», “Investigación sobre Hohol”, “Fragmentos literarios sobre Shchors”.",
+    "description9": "Bloque de patrimonio epistolar con las categorías: «Cartas de Oleksandr Bodianski», “Cartas de las colegas archiveras Nadiia Linka y Seraphima Kuznetsova”, y “Cartas de Fedot Filin”.",
+    "description10": "Se imprimió un calendario de recuerdo con fotos de la colección Kosanove, un enterramiento de la cultura Cherniakhivska que fue investigado en los años sesenta por Viktor Petrov y Nadiia Kravchenko, como regalo para todos los participantes en el proyecto. La colección se conserva ahora en los Fondos Científicos del Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania. El calendario (así como la página principal del sitio web) está basado en una fotografía de Nika Havrysh.",
+    "link_to_site": "https://petrov-domontovych-archive.iananu.digital/en/"
+  },
+  "viazmitina_project": {
+    "title": "ARCHIVO DIGITAL DE LA MEMORIA. EL ARCHIVO DE MARIA VIAZMITINA",
+    "description": "Durante junio y julio de 2025, por iniciativa de Oleksandra Buzko, jefa del Archivo Científico, se llevó a cabo el proyecto 'Archivo digital de la memoria. El archivo de Maria Viazmitina (1896–1994)''. Con el apoyo de becas del Freie Institut Berlin y el Institut für die Wissenschaften vom Menschen / Institute for Human Sciences, IWM (Austria), se describió y digitalizó la parte 'turcomana' del extenso archivo de esta destacada arqueóloga, orientalista e historiadora del arte ucraniana. En 2026 se conmemorará el 130 aniversario del nacimiento de la científica, y se prevé continuar con el proyecto.",
+    "description2": "Además de Oleksandra Buzko, dos grupos de estudiantes participaron en la descripción de los documentos y en la redacción de anotaciones como parte de sus prácticas en el archivo. Estudiantes del tercer año de la Facultad de Historia de la Universidad Metropolitana de Kyiv Borys Hrinchenko ayudaron a clasificar la correspondencia y los diarios de campo, numerar las páginas y digitalizar el material. El equipo incluyó a Tetiana Vaskevych, Sviatoslav Hamaliia, Yeva Hrabovets, Sofia Klymenko, Vladyslav Kuzmenko, Kateryna Pylyponchyk y Mykhailo Khomenko. Estudiantes del Departamento de Estudios Culturales de la Universidad Nacional “Academia de Kyiv-Mohyla” colaboraron en el procesamiento, numeración y digitalización de las fotografías: Vladyslav Voznyi, Myroslava Hromova, Anastasiia Latypova, Denys Popov y Diana Reskalenko.",
+    "description3": "A finales de julio, el sitio web presenta los siguientes bloques documentales: 'Correspondencia' (cartas de Maria Viazmitina, Maria Novytska, Galina Pugachenkova y Mijaíl Masson); 'Fotografías de Nisa' (paisajes, imágenes de hallazgos y retratos); 'Documentación de campo' (diarios de campo de Viazmitina de 1946 a 1949); y la sección 'Artículos' (publicaciones previas sobre las excavaciones en Nisa).",
+    "description4": "También se puede consultar en línea, a través del sitio web, la edición del libro: Buzko Oleksandra. Maria Viazmitina: Expedición arqueológica a Partia (Con la publicación de fragmentos de correspondencia y un artículo inédito de la investigadora). Kyiv: Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania, 2025. Este libro está dedicado a un episodio de la biografía de Maria Viazmitina (1896–1994), arqueóloga, historiadora del arte y orientalista ucraniana. En la década de 1940, la investigadora participó en la Expedición Arqueológica Compleja del Sur de Turkmenistán, dirigida por Mijaíl Masson, en la que encabezó un destacamento independiente en el yacimiento y la necrópolis de la ciudad parta de Nisa Nueva (actual Turkmenistán). Además de un ensayo biográfico, el libro incluye correspondencia de Maria Viazmitina durante la expedición y un artículo sobre los guerreros partos que, por desgracia, nunca fue publicado. En este texto, basándose en dos fragmentos de una placa de terracota encontrados durante las excavaciones, la investigadora reconstruyó una imagen y demostró que los guerreros partos viajaban montados en un elefante de guerra. Casi 70 años después, cuando un arqueólogo ruso encontró el manuscrito en Taskent y realizó nuevas excavaciones en el sitio, sus hallazgos confirmaron la exactitud de la reconstrucción hecha por la científica ucraniana. La obra está dirigida a un público amplio interesado en la arqueología, la historia, los estudios culturales, la orientalística, la historia del arte y la historia militar. Además, los materiales del libro pueden resultar relevantes desde la perspectiva de los estudios poscoloniales.",
+    "link_to_site": "https://viazmitina-archive.iananu.digital/en/"
+  },
+  "button": "Visitar sitio",
+  "footer": {
+    "title": "Contacto",
+    "art_by": "Ilustración artística por Iryna Glik",
+    "website_by": "Sitio web por Diego Thon",
+    "design_by": "Diseño web por Oleksandra Buzko",
+    "email": "arhiv.ia.nanu@gmail.com",
+    "street": "Kyiv, 04210, Volodymyra Ivasiuka avenue, 12",
+    "copyrights": {
+      "first-part": "Todos los derechos reservados. ©",
+      "link-part": "Instituto de Arqueología de la Academia Nacional de Ciencias de Ucrania",
+      "third-part": "Archivo digital de la memoria"
+    }
+  }
 }
