@@ -17,10 +17,10 @@ const App = () => {
     <>
         <Header />
         <Menu />
+        <ViazmitinaProject />
         <DomontovychProject />
         <VovkProject />
         <HamchenkoProject />
-        <ViazmitinaProject />
         <Footer />
         <ArrowUp />
     </>
