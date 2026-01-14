@@ -1,7 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-montserratAlt;
+  }
+}
 
 * {
     margin: 0;
@@ -23,7 +28,6 @@ html {
 }
 
 body {
-    font-family: 'Roboto Slab', sans-serif !important;
     font-size: var(--fontSize);
     background-color: var(--color-bg);
     color: var(--color-black);
