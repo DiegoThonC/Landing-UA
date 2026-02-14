@@ -19,7 +19,7 @@ const VovkProject = () => {
   const content = t("vovk_project.content", { returnObjects: true });
 
   return (
-    <section id="VovkProject" className="pb-14 pt-32 md:px-14">
+    <section id="VovkProject" className="py-14 md:px-14">
       <div className="container mx-auto px-4 mb-40 relative">
         <h2 className="mt-8 font-normal text-2xl uppercase">
           {t("vovk_project.title")}

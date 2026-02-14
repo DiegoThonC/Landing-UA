@@ -11,7 +11,7 @@ const Header = () => {
   const countryFlag = localStorage.getItem("countryFlag") || ukraine;
 
   const headerFont =
-    lang === "ua" ? "font-montserrat" : "font-josefin";
+    lang === "ua" ? "font-montserrat-alternates" : "font-josefin";
 
   const logo = lang === "ua" ? logoUa : logoEn;
 
@@ -23,15 +23,17 @@ const Header = () => {
           className={`pointer py-4 gap-3 flex flex-col md:text-start md:items-start ${headerFont}`}
         >
           <img src={logo} alt="logo" width={230} height={87}/>
-          <span className="text-white sm:text-2xl text-sm font-bold">
-            {t("header.title")}
-          </span>
-          <span className="text-white text-sm text-center font-normal">
-            {t("header.sub_title")}
-          </span>
+          <div className="flex flex-col gap-1">
+            <span className="text-white sm:text-2xl text-sm font-bold">
+              {t("header.title")}
+            </span>
+            <span className="text-white text-sm -mt-1 font-normal">
+              {t("header.sub_title")}
+            </span>
+          </div>
         </a>
         <div className="hidden py-3 gap-10 items-baseline lg:flex">
-          <a href="#footer" className={`contents text-white text-base mt-1 ${headerFont}`}>
+          <a href="#footer" className={`contents text-white text-sm mt-1 ${headerFont}`}>
             {t("header.contact")}
           </a>
           <LanguageSelect lang={lang} countryFlag={countryFlag} />
