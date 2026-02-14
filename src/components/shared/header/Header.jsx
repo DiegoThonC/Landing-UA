@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </a>
         <div className="hidden py-3 gap-10 items-baseline lg:flex">
-          <a href="#footer" className={`contents text-white text-sm mt-1 ${headerFont}`}>
+          <a href="#footer" className={`contents text-white text-base mt-1 ${headerFont}`}>
             {t("header.contact")}
           </a>
           <LanguageSelect lang={lang} countryFlag={countryFlag} />
