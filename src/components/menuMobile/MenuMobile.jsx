@@ -1,7 +1,10 @@
 import { useState } from "react";
 import LanguageSelect from "../shared/languageSelect/LanguageSelect";
+import { getLocalizedLink } from "../../util/getLocalizedlink";
+import { useTranslation } from "react-i18next";
 
 const MenuMobile = ({ links = [] }) => {
+  const { i18n } = useTranslation();
   const [openMenu, setOpenMenu] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -79,7 +82,7 @@ const MenuMobile = ({ links = [] }) => {
                       {item.links.map((sub) => (
                         <li className="pb-3" key={sub.href}>
                           <a
-                            href={sub.href}
+                            href={getLocalizedLink(sub.href, i18n.language)}
                             className="block text-gray-700 hover:text-black"
                             onClick={() => setOpenMenu(false)}
                           >

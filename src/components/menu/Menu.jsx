@@ -3,7 +3,7 @@ import drawing from "../../assets/bg-main.png";
 import { LINKS } from "../../util/constants";
 import { useTranslation } from "react-i18next";
 import { ArrowDownIcon } from "@heroicons/react/24/outline";
-import MenuMobile from "../MenuMobile/MenuMobile";
+import MenuMobile from "../menuMobile/MenuMobile";
 
 const Menu = () => {
   const [t] = useTranslation("global");

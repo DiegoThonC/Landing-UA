@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next";
+import { getLocalizedLink } from "../../util/getLocalizedlink";
+
 const MenuWide = ({ links = [] }) => {
+  const { i18n } = useTranslation();
+
   return (
     <div className="flex justify-between pt-10">
       <ul>
@@ -6,7 +11,7 @@ const MenuWide = ({ links = [] }) => {
           return (
             <li key={index} className="py-1">
               <a
-                href={project.href}
+                href={getLocalizedLink(project.href, i18n.language)}
                 className="flex py-1 hover:bg-neutral-950 hover:text-white px-5 text-2xl lg:text-xl max-w-[260px] whitespace-normal break-words"
               >
                 {project.name}
@@ -21,7 +26,7 @@ const MenuWide = ({ links = [] }) => {
           return (
             <li key={index} className="py-1">
               <a
-                href={archive.href}
+                href={getLocalizedLink(archive.href, i18n.language)}
                 className="flex py-1 hover:bg-neutral-950 hover:text-white px-5 text-2xl lg:text-xl"
               >
                 {archive.name}
