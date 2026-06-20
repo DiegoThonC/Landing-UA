@@ -80,7 +80,7 @@ const MenuMobile = ({ links = [] }) => {
                   >
                     <ul className="flex flex-col pl-36">
                       {item.links.map((sub) => (
-                        <li className="pb-3" key={sub.href}>
+                        <li className="pb-3" key={`${sub.name}-${index}`}>
                           <a
                             href={getLocalizedLink(sub.href, i18n.language)}
                             className="block text-gray-700 hover:text-black"

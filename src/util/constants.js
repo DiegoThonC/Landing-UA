@@ -4,10 +4,28 @@ export const LINKS = {
   petrov: "https://petrov-domontovych-archive.iananu.digital/",
   viazmitina: "https://viazmitina-archive.iananu.digital/",
 
-  about:
-    "http://vovk-archive.iananu.digital/history-of-the-scientific-archive/",
-  archival_fonds: "http://vovk-archive.iananu.digital/archival-funds/",
-  activities: "http://vovk-archive.iananu.digital/activities/",
-  partnerships: "http://vovk-archive.iananu.digital/partnerships/",
-  students: "http://vovk-archive.iananu.digital/students-in-the-archive/",
+  about: {
+    ua: "https://vovk-archive.iananu.digital/istoriya-naukovogo-arhivu-instytutu-arheologiyi-nan-ukrayiny/",
+    en: "https://vovk-archive.iananu.digital/en/history-of-the-scientific-archive/",
+  },
+
+  archival_fonds: {
+    ua: "https://vovk-archive.iananu.digital/fondy-arhivu/",
+    en: "https://vovk-archive.iananu.digital/en/archival-funds/",
+  },
+
+  activities: {
+    ua: "https://vovk-archive.iananu.digital/aktyvnosti/",
+    en: "https://vovk-archive.iananu.digital/en/activities/",
+  },
+
+  partnerships: {
+    ua: "https://vovk-archive.iananu.digital/partnerstva/",
+    en: "https://vovk-archive.iananu.digital/en/partnerships/",
+  },
+
+  students: {
+    ua: "https://vovk-archive.iananu.digital/volonterstvo/",
+    en: "https://vovk-archive.iananu.digital/en/students-in-the-archive/",
+  },
 };

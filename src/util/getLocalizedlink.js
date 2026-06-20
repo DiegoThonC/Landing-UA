@@ -1,11 +1,7 @@
-export const getLocalizedLink = (url, lang) => {
-  if (!url) return url;
+export const getLocalizedLink = (link, lang) => {
+  if (!link) return link;
 
-  if (lang !== "ua") {
-    return url.endsWith("/")
-      ? `${url}en/`
-      : `${url}/en/`;
-  }
+  if (typeof link === "string") return link;
 
-  return url;
+  return lang === "ua" ? link.ua : link.en;
 };
