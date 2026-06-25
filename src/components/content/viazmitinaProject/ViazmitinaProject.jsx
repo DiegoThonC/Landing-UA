@@ -14,9 +14,51 @@ const imagesMap = {
 const ViazmitinaProject = () => {
   const [t] = useTranslation("projects");
 
+  // Get structured content (text, images, lists) from i18n JSON
   const content = t("viazmitina_project.content", {
     returnObjects: true,
   });
+
+  /**
+   * Splits long text into two halves based on sentences
+   * Used for creating a 2-column text layout when text is long enough
+   */
+  const splitTextBySentence = (text, minLength = 150) => {
+    if (text.length <= minLength) return null;
+
+    // Split text into sentences
+    const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+
+    // Divide sentences into two halves
+    const half = Math.ceil(sentences.length / 2);
+
+    return {
+      left: sentences.slice(0, half).join(" ").trim(),
+      right: sentences.slice(half).join(" ").trim(),
+    };
+  };
+
+  /**
+   * Renders text block
+   * - If short → single column paragraph
+   * - If long → split into 2 columns
+   */
+  const renderText = (text, split = true) => {
+    const parts = split ? splitTextBySentence(text) : null;
+
+    // Short text case (normal paragraph)
+    if (!parts) {
+      return <p className="my-4 font-normal text-lg">{text}</p>;
+    }
+
+    // Long text case (2-column split layout)
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-8 my-6">
+        <p className="font-normal text-lg">{parts.left}</p>
+        <p className="font-normal text-lg">{parts.right}</p>
+      </div>
+    );
+  };
 
   return (
     <section id="viazmitinaProject" className="py-14 md:px-14">
@@ -25,27 +67,100 @@ const ViazmitinaProject = () => {
           {t("viazmitina_project.title")}
         </h2>
 
+        {/* Main content renderer (handles text, images, lists, pairing logic) */}
         {content?.map((block, index) => {
-          if (block.type === "text") {
+          
+          // Look ahead to next block (used for text + image pairing)
+          const next = content[index + 1];
+
+          /**
+           * TEXT + IMAGE PAIRING LOGIC
+           * If a text block is immediately followed by an image:
+           * - we combine them into a 2-column layout
+           * - and alternate image position (left/right)
+           */
+          if (block.type === "text" && next?.type === "image") {
+            
+            // Determine pair index (used to alternate layout direction)
+            const pairIndex =
+              content
+                .slice(0, index)
+                .filter(
+                  (b, i) =>
+                    content[i]?.type === "text" &&
+                    content[i + 1]?.type === "image"
+                ).length;
+
+            // Even pairs: text left, image right
+            // Odd pairs: image left, text right
+            const isEven = pairIndex % 2 === 0;
+
             return (
-              <p
+              <div
                 key={index}
-                style={{ whiteSpace: "pre-line" }}
-                className="my-4 font-normal text-lg"
+                className="my-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start"
               >
-                {block.value}
-              </p>
+                {/* TEXT */}
+                <div className={isEven ? "md:order-1" : "md:order-2"}>
+                  {renderText(block.value, false)}
+                </div>
+
+                {/* IMAGE */}
+                <img
+                  src={imagesMap[next.value]}
+                  alt=""
+                  className={`w-full shadow-[25px_25px_30px_0px_#00000080] ${
+                    isEven ? "md:order-2" : "md:order-1"
+                  }`}
+                />
+              </div>
             );
           }
 
+          /**
+           * Skip image if it has already been rendered
+           * as part of a text+image pair above
+           */
+          if (block.type === "image" && content[index - 1]?.type === "text") {
+            return null;
+          }
+
+          /**
+           * Standalone image (not part of a pair)
+           */
           if (block.type === "image") {
             return (
               <img
                 key={index}
                 src={imagesMap[block.value]}
                 alt=""
-                className="md:w-screen my-10 shadow-[25px_25px_30px_0px_#00000080]"
+                className="my-10 w-full shadow-[25px_25px_30px_0px_#00000080]"
               />
+            );
+          }
+
+          /**
+           * Standalone text block
+           * May become 2-column if long enough
+           */
+          if (block.type === "text") {
+            return (
+              <div key={index}>
+                {renderText(block.value, true)}
+              </div>
+            );
+          }
+
+          /**
+           * List block rendering
+           */
+          if (block.type === "list") {
+            return (
+              <ul key={index} className="my-6 list-disc pl-6 text-lg">
+                {block.items.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
             );
           }
 
